@@ -4,7 +4,7 @@ namespace WebChemistry\NetteInterfaces\Factories;
 
 use Nette\Application\UI\Form;
 
-interface SignInFormFactory {
+interface ISignInFormFactory {
 
 	public function createSignInForm(): Form;
 
